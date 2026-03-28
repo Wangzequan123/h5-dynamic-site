@@ -18,7 +18,7 @@
   }
   /* 顶部 Banner */
   .banner {
-    padding: 48px 24px 36px;
+    padding: 0;
     text-align: center;
     color: #fff;
     position: relative;
@@ -66,10 +66,14 @@
     letter-spacing: 2px;
   }
   .banner-slogan {
-    margin-top: 20px;
-    font-size: 16px;
-    color: rgba(255,255,255,0.85);
+    position: absolute;
+    bottom: 20px;
+    left: 0; right: 0;
+    font-size: 15px;
+    color: rgba(255,255,255,0.95);
     font-weight: 600;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    letter-spacing: 1px;
   }
 
   /* 通知条 */
@@ -220,8 +224,6 @@
   <div class="banner-bg" id="bannerBg"></div>
   <div class="banner-overlay" id="bannerOverlay" style="display:none;"></div>
   <div class="banner-content">
-    <div class="banner-title" id="siteTitle">加载中...</div>
-    <div class="banner-sub" id="siteSub"></div>
     <div class="banner-slogan" id="bannerSlogan"></div>
   </div>
 </div>
@@ -259,9 +261,6 @@ const CACHE_DURATION = 5 * 60 * 1000; // 5分钟缓存
 
 function render(data) {
   // Banner
-  document.getElementById('siteTitle').textContent = data.title || 'AI科技前沿';
-  document.getElementById('siteSub').textContent = data.subtitle || '';
-  
   const bannerSection = (data.sections || []).find(s => s.type === 'banner');
   if (bannerSection) {
     document.getElementById('bannerSlogan').textContent = bannerSection.title || '';
