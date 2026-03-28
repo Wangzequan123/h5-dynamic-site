@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AI科技前沿</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: 0 auto;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* 顶部 Banner */
+  .banner {
+    padding: 48px 24px 36px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner-bg {
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    z-index: 0;
+  }
+  .banner-bg::after {
+    content: '';
+    position: absolute;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle at 30% 50%, rgba(233,30,99,0.12) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(102,126,234,0.12) 0%, transparent 50%);
+  }
+  .banner-content { position: relative; z-index: 1; }
+  .banner-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+  .banner-sub {
+    font-size: 14px;
+    color: rgba(255,255,255,0.65);
+    letter-spacing: 2px;
+  }
+  .banner-slogan {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.85);
+    font-weight: 600;
+  }
+
+  /* 通知条 */
+  .notice-bar {
+    background: #fff3e0;
+    padding: 12px 20px;
+    font-size: 13px;
+    color: #e65100;
+    text-align: center;
+    border-bottom: 1px solid #ffe0b2;
+  }
+
+  /* 更新时间 */
+  .update-info {
+    padding: 16px 20px 8px;
+    font-size: 12px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .update-info .dot {
+    width: 6px; height: 6px;
+    background: #4caf50;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  /* 文章列表 */
+  .article-list { padding: 0 16px 100px; }
+  .article-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .article-card:active {
+    transform: scale(0.98);
+  }
+  .article-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px; height: 100%;
+    border-radius: 4px 0 0 4px;
+  }
+  .article-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .article-tag {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: #fff;
+    flex-shrink: 0;
+  }
+  .article-date {
+    font-size: 12px;
+    color: #bbb;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+  .article-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1a1a2e;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .article-desc {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .article-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  /* 加载状态 */
+  .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: #ccc;
+    font-size: 14px;
+  }
+  .loading-spinner {
+    width: 32px; height: 32px;
+    border: 3px solid #eee;
+    border-top-color: #667eea;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* 底部 */
+  .footer {
+    text-align: center;
+    padding: 30px 20px 40px;
+    font-size: 12px;
+    color: #ccc;
+    border-top: 1px solid #f0f0f0;
+    margin-top: 20px;
+  }
+
+  /* 下拉刷新提示 */
+  .pull-hint {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #bbb;
+    background: #f9f9f9;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+</style>
+</head>
+<body>
+
+<!-- Banner -->
+<div class="banner" id="banner">
+  <div class="banner-bg" id="bannerBg"></div>
+  <div class="banner-content">
+    <div class="banner-title" id="siteTitle">加载中...</div>
+    <div class="banner-sub" id="siteSub"></div>
+    <div class="banner-slogan" id="bannerSlogan"></div>
+  </div>
+</div>
+
+<!-- 通知条 -->
+<div class="notice-bar" id="noticeBar" style="display:none;"></div>
+
+<!-- 更新时间 -->
+<div class="update-info">
+  <span><span class="dot"></span>实时更新</span>
+  <span id="updateTime"></span>
+</div>
+
+<!-- 下拉刷新 -->
+<div class="pull-hint">👇 下拉刷新获取最新内容</div>
+
+<!-- 文章列表 -->
+<div class="article-list" id="articleList">
+  <div class="loading">
+    <div class="loading-spinner"></div>
+    正在加载内容...
+  </div>
+</div>
+
+<!-- 底部 -->
+<div class="footer">
+  AI科技前沿 · 动态内容页<br>
+  内容由 AI 自动更新维护
+</div>
+
+<script>
+const CACHE_KEY = 'h5_content_cache';
+const CACHE_TIME = 'h5_content_time';
+const CACHE_DURATION = 5 * 60 * 1000; // 5分钟缓存
+
+function render(data) {
+  // Banner
+  document.getElementById('siteTitle').textContent = data.title || 'AI科技前沿';
+  document.getElementById('siteSub').textContent = data.subtitle || '';
+  
+  const bannerSection = (data.sections || []).find(s => s.type === 'banner');
+  if (bannerSection) {
+    document.getElementById('bannerSlogan').textContent = bannerSection.title || '';
+    if (bannerSection.bgColor) {
+      document.getElementById('bannerBg').style.background = bannerSection.bgColor;
+    }
+  }
+
+  // 通知
+  const noticeSection = (data.sections || []).find(s => s.type === 'notice');
+  if (noticeSection && noticeSection.text) {
+    const bar = document.getElementById('noticeBar');
+    bar.textContent = noticeSection.text;
+    bar.style.display = 'block';
+    bar.style.background = noticeSection.bgColor || '#fff3e0';
+  }
+
+  // 更新时间
+  document.getElementById('updateTime').textContent = new Date().toLocaleString('zh-CN');
+
+  // 文章列表
+  const list = document.getElementById('articleList');
+  const items = data.items || [];
+  
+  if (items.length === 0) {
+    list.innerHTML = '<div style="text-align:center;padding:40px;color:#ccc;">暂无内容</div>';
+    return;
+  }
+
+  let html = '';
+  items.forEach((item, i) => {
+    const tagColor = item.tagColor || '#667eea';
+    html += `
+      <div class="article-card" style="animation: fadeInUp 0.4s ease ${i * 0.1}s both;">
+        <div style="position:absolute;top:0;left:0;width:4px;height:100%;background:${tagColor};border-radius:4px 0 0 4px;"></div>
+        ${item.image ? `<img class="article-image" src="${item.image}" alt="" onerror="this.style.display='none'">` : ''}
+        <div class="article-header">
+          <span class="article-tag" style="background:${tagColor}">${item.tag || '资讯'}</span>
+          <span class="article-date">${item.date || ''}</span>
+        </div>
+        <div class="article-title">${item.title || ''}</div>
+        <div class="article-desc">${item.desc || ''}</div>
+      </div>
+    `;
+  });
+
+  // 添加 fadeInUp 动画
+  const style = document.createElement('style');
+  style.textContent = `@keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}`;
+  document.head.appendChild(style);
+
+  list.innerHTML = html;
+}
+
+async function loadContent() {
+  // 先读缓存
+  try {
+    const cached = localStorage.getItem(CACHE_KEY);
+    const cachedTime = parseInt(localStorage.getItem(CACHE_TIME) || '0');
+    if (cached && (Date.now() - cachedTime < CACHE_DURATION)) {
+      render(JSON.parse(cached));
+    }
+  } catch(e) {}
+
+  // 请求最新数据
+  try {
+    const t = Date.now(); // 防缓存
+    const res = await fetch('./content.json?t=' + t);
+    const data = await res.json();
+    render(data);
+    localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+    localStorage.setItem(CACHE_TIME, String(Date.now()));
+  } catch(e) {
+    console.error('加载失败:', e);
+    if (!document.getElementById('articleList').querySelector('.article-card')) {
+      document.getElementById('articleList').innerHTML = `
+        <div style="text-align:center;padding:40px;color:#999;">
+          <p>😅 内容加载失败</p>
+          <p style="margin-top:8px;font-size:12px;">请稍后再试</p>
+        </div>
+      `;
+    }
+  }
+}
+
+// 启动
+loadContent();
+
+// 下拉刷新
+let startY = 0;
+document.addEventListener('touchstart', e => { startY = e.touches[0].pageY; });
+document.addEventListener('touchend', e => {
+  const diff = e.changedTouches[0].pageY - startY;
+  if (diff > 120 && window.scrollY < 10) {
+    loadContent();
+  }
+});
+</script>
+</body>
+</html>

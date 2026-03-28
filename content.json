@@ -1,0 +1,49 @@
+{
+  "title": "AI科技前沿",
+  "subtitle": "最新AI资讯 · 实时更新",
+  "avatar": "",
+  "items": [
+    {
+      "type": "article",
+      "title": "英伟达GTC 2026：黄仁勋重新定义AI未来",
+      "desc": "Rubin与Feynman双系列芯片发布，Physical AI全面起飞",
+      "date": "2026-03-25",
+      "tag": "芯片",
+      "tagColor": "#e91e63",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "中国首例植入式脑机接口获批商业化",
+      "desc": "瘫痪患者可用意念控制外骨骼设备",
+      "date": "2026-03-23",
+      "tag": "医疗",
+      "tagColor": "#2196f3",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "Midjourney V7 + Adobe Firefly 5 同时发布",
+      "desc": "AI生图质量已接近专业摄影水准",
+      "date": "2026-03-20",
+      "tag": "AI工具",
+      "tagColor": "#9c27b0",
+      "link": "",
+      "image": ""
+    }
+  ],
+  "sections": [
+    {
+      "type": "banner",
+      "title": "🔥 AI时代，每天进步一点点",
+      "bgColor": "linear-gradient(135deg, #1a1a2e, #16213e, #0f3460)"
+    },
+    {
+      "type": "notice",
+      "text": "内容持续更新中，关注公众号获取最新推送 📢",
+      "bgColor": "#fff3e0"
+    }
+  ]
+}
