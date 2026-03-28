@@ -1,35 +1,106 @@
 {
-  "title": "AI科技前沿",
-  "subtitle": "最新AI资讯 · 实时更新",
+  "title": "AI科技前沿日报",
+  "subtitle": "每日AI资讯 · 自动更新",
   "avatar": "",
+  "updateDate": "2026-03-28",
   "items": [
     {
       "type": "article",
-      "title": "英伟达GTC 2026：黄仁勋重新定义AI未来",
-      "desc": "Rubin与Feynman双系列芯片发布，Physical AI全面起飞",
-      "date": "2026-03-25",
-      "tag": "芯片",
+      "title": "中国大模型调用量首次超越美国，国产AI登顶全球第一",
+      "desc": "2026年3月中国大模型周调用量达4.69万亿Token，同比增长320%，连续两周超越美国。全球TOP10中中国模型占据6席，实现历史性反超。",
+      "date": "2026-03-27",
+      "tag": "重磅",
       "tagColor": "#e91e63",
       "link": "",
       "image": ""
     },
     {
       "type": "article",
-      "title": "中国首例植入式脑机接口获批商业化",
-      "desc": "瘫痪患者可用意念控制外骨骼设备",
-      "date": "2026-03-23",
-      "tag": "医疗",
+      "title": "Arm发布AGI专用架构芯片，x86时代迎来终局",
+      "desc": "Arm推出专为通用人工智能设计的新一代处理器架构，传统x86架构面临最强挑战，全球芯片格局或将重新洗牌。",
+      "date": "2026-03-27",
+      "tag": "芯片",
+      "tagColor": "#ff5722",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "OpenAI关停Sora！中国AI视频厂商全面接盘",
+      "desc": "OpenAI宣布关闭视频生成工具Sora，国内可灵、即梦等AI视频厂商迅速抢占市场空白，中国AI视频赛道迎来爆发窗口。",
+      "date": "2026-03-27",
+      "tag": "行业",
+      "tagColor": "#9c27b0",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "众智FlagOS 2.0发布：全球支持芯片种类最多的AI系统栈",
+      "desc": "中关村论坛上，由智源研究院牵头研发的FlagOS 2.0正式开源，支持全球最多芯片种类，打破AI系统软件碎片化困局。",
+      "date": "2026-03-27",
+      "tag": "开源",
       "tagColor": "#2196f3",
       "link": "",
       "image": ""
     },
     {
       "type": "article",
-      "title": "Midjourney V7 + Adobe Firefly 5 同时发布",
-      "desc": "AI生图质量已接近专业摄影水准",
-      "date": "2026-03-20",
-      "tag": "AI工具",
-      "tagColor": "#9c27b0",
+      "title": "全球首个通用智能人「通通3.0」亮相中关村论坛",
+      "desc": "具备自主感知、决策与执行能力的通用智能体「通通3.0」正式发布，被认为是迈向AGI的重要里程碑。",
+      "date": "2026-03-27",
+      "tag": "前沿",
+      "tagColor": "#00bcd4",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "《全球主权大模型发展白皮书》发布，多国共建AI主权",
+      "desc": "中国与巴西、巴基斯坦、马来西亚等7国联合发布主权AI白皮书，提出每个国家应具备独立自主的AI基础设施能力。",
+      "date": "2026-03-27",
+      "tag": "政策",
+      "tagColor": "#4caf50",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "中国科协宣布停止受理NeurIPS会议资助申请",
+      "desc": "中国科学技术协会发布声明，即日起停止资助学者参加NeurIPS，转投国内学术会议，引发学术界对国际AI会议公平性的广泛讨论。",
+      "date": "2026-03-27",
+      "tag": "学术",
+      "tagColor": "#607d8b",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "昆仑万维三大模型同日发布：Matrix-Game3.0/SkyReels V4/AI助手",
+      "desc": "昆仑万维在中关村论坛发布天工AIGC全家桶，涵盖世界模型、视频生成和AI助手三大产品线，AI应用生态全面铺开。",
+      "date": "2026-03-27",
+      "tag": "产品",
+      "tagColor": "#ff9800",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "具身智能领域首个行业标准正式发布",
+      "desc": "中国在具身智能（机器人+AI）领域发布首个行业标准，为AI机器人产业化奠定规范基础，人形机器人赛道加速落地。",
+      "date": "2026-03-27",
+      "tag": "标准",
+      "tagColor": "#795548",
+      "link": "",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "2026全球开发者先锋大会在上海开幕，AI产业规模破6300亿",
+      "desc": "GDPS 2026在上海西岸开幕，上海AI产业规模突破6300亿元，同比增长近40%，全球开发者齐聚中国创新主场。",
+      "date": "2026-03-27",
+      "tag": "大会",
+      "tagColor": "#3f51b5",
       "link": "",
       "image": ""
     }
@@ -37,12 +108,13 @@
   "sections": [
     {
       "type": "banner",
-      "title": "🔥 AI时代，每天进步一点点",
-      "bgColor": "linear-gradient(135deg, #1a1a2e, #16213e, #0f3460)"
+      "title": "📡 3月27日 · AI前沿日报",
+      "bgColor": "linear-gradient(135deg, #0d1117, #161b22, #1f2937)"
     },
     {
       "type": "notice",
-      "text": "📢 欢迎来到AI科技前沿，内容由AI自动更新维护"
+      "text": "🔔 每天早上6点前自动更新前一天AI科技动态 TOP 10",
+      "bgColor": "#e8f5e9"
     }
   ]
 }
