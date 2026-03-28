@@ -2,6 +2,7 @@
   "title": "AI科技前沿日报",
   "subtitle": "每日AI资讯 · 自动更新",
   "avatar": "",
+  "bannerImage": "banner.jpeg",
   "updateDate": "2026-03-28",
   "items": [
     {
@@ -109,7 +110,7 @@
     {
       "type": "banner",
       "title": "📡 3月27日 · AI前沿日报",
-      "bgColor": "linear-gradient(135deg, #0d1117, #161b22, #1f2937)"
+      "bgColor": ""
     },
     {
       "type": "notice",
