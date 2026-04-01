@@ -3,113 +3,113 @@
   "subtitle": "每日AI资讯 · 自动更新",
   "avatar": "",
   "bannerImage": "banner.jpeg",
-  "updateDate": "2026-03-31",
+  "updateDate": "2026-04-01",
   "items": [
     {
       "type": "article",
-      "title": "月之暗面ARR破亿美元，Kimi K2.5发布一月即成「印钞机」",
-      "desc": "月之暗面（Moonshot AI）在发布Kimi K2.5模型仅一个月后，年度经常性收入（ARR）正式突破1亿美元。企业客户为抢购算力配额，开出千万美元级预付承诺。公司估值传闻将飙升至180亿美元，稳坐「AI六小虎」前列。",
-      "date": "2026-03-30",
+      "title": "OpenAI完成1220亿美元巨额融资，投后估值升至8520亿美元",
+      "desc": "OpenAI正式宣布完成新一轮融资，募集资金规模高达1220亿美元，投后估值飙升至8520亿美元。这笔"天量"资金将为公司在算力基础设施、顶尖人才招募及下一代前沿模型开发提供极具竞争力的资金保障，大模型行业马太效应愈发明显。",
+      "date": "2026-03-31",
       "tag": "重磅",
       "tagColor": "#e91e63",
-      "link": "https://www.aibase.com/zh/news/26666",
+      "link": "https://www.aibase.com/zh/news/26738",
       "image": ""
     },
     {
       "type": "article",
-      "title": "英矽智能与礼来达成27.5亿美元AI制药大单，AI原生biotech价值兑现",
-      "desc": "英矽智能（HK:03696）宣布与礼来达成合作：首付款1.15亿美元、总价27.5亿美元，核心为一款临床前口服GLP-1周制剂。这是AI制药领域迄今最大规模BD交易之一，标志着AI原生biotech商业价值全面兑现。",
-      "date": "2026-03-30",
-      "tag": "AI制药",
-      "tagColor": "#9c27b0",
-      "link": "https://36kr.com/p/3745377703608832",
+      "title": "Anthropic遭遇史诗级泄露，Claude Code 50万行源码"裸奔"",
+      "desc": "Anthropic因发包疏忽未删除.map文件，导致Claude Code完整源码被公开，涉及近两千份文件和超过50万行TypeScript代码。源码揭示"赛博宠物"BUDDY项目和"夜间做梦"KAIROS功能，这场"低级失误"引发AI安全治理深度讨论。",
+      "date": "2026-03-31",
+      "tag": "安全",
+      "tagColor": "#f44336",
+      "link": "https://www.aibase.com/zh/news/26735",
       "image": ""
     },
     {
       "type": "article",
-      "title": "微软接手得州2.1GW算力航母，与OpenAI同园区毗邻而居",
-      "desc": "微软正式接手得克萨斯州阿比林市大型数据中心项目，园区AI数据中心将增至10栋，整体算力攀升至2.1吉瓦。微软、OpenAI、甲骨文三巨头同聚一园，全球AI算力竞赛进入「吉瓦时代」。",
-      "date": "2026-03-30",
-      "tag": "算力",
-      "tagColor": "#2196f3",
-      "link": "https://www.aibase.com/zh/news/26653",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "Mistral AI举债8.3亿美元扫货1.38万片英伟达芯片，欧洲AI绝地反击",
-      "desc": "法国AI巨头Mistral AI成功筹集8.3亿美元债务融资，将全部投入算力基建，购入1.38万片英伟达顶级芯片。巴黎郊外数据中心预计2026年Q2投入运营，欧洲AI自主战略提速，估值已达140亿美元。",
-      "date": "2026-03-30",
-      "tag": "融资",
-      "tagColor": "#ff5722",
-      "link": "https://www.aibase.com/zh/news/26667",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "xAI最后一位联合创始人离职，马斯克创始团队三年内全部流失",
-      "desc": "马斯克旗下xAI最后一位联合创始人Tony Wu近日离职，标志着2023年成立时的12人创始团队已全部流失。外界对xAI技术连续性产生质疑，但马斯克表示已引入特斯拉和SpaceX工程师补位，Grok-3研发仍在全速推进。",
-      "date": "2026-03-30",
-      "tag": "人事",
-      "tagColor": "#607d8b",
-      "link": "https://www.aibase.com/zh/news/26663",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "智元机器人第10000台远征A3量产下线，15个月实现规模十倍跨越",
-      "desc": "智元机器人（AgiBot）宣布第10000台通用具身机器人「远征A3」正式下线，自2025年1月起15个月内完成量产规模十倍增长。从5000台到10000台仅用三个多月，人形机器人商业化深水区加速到来。",
-      "date": "2026-03-30",
-      "tag": "机器人",
-      "tagColor": "#ff9800",
-      "link": "https://www.aibase.com/zh/news/26661",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "微软开源VibeVoice语音AI家族，单次处理90分钟多说话人对话获27K Star",
-      "desc": "微软开源VibeVoice语音AI模型家族，涵盖ASR和TTS能力，支持单次处理长达90分钟多说话人对话，首音频延迟仅约300毫秒。MIT协议、支持本地部署，发布后迅速在GitHub获得约27K Star。",
-      "date": "2026-03-30",
-      "tag": "开源",
-      "tagColor": "#00bcd4",
-      "link": "https://www.aibase.com/zh/news/26659",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "SuperCLUE测评：豆包跻身全球第一梯队，小米MiMo首次上榜",
-      "desc": "国内权威大模型测评基准SuperCLUE最新报告显示，字节跳动豆包（Doubao-pro）成功跻身全球大模型第一梯队，与GPT-4等国际顶级模型正面交锋。小米秘密研发的MiMo大模型首次上榜，手机厂商自研大模型能力引发关注。",
-      "date": "2026-03-30",
-      "tag": "测评",
-      "tagColor": "#4caf50",
-      "link": "https://www.aibase.com/zh/news/26656",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "Runway发布Multi-Shot App，AI视频从「单镜头」跨越至「一键成片」",
-      "desc": "AI视频生成领军企业Runway正式推出Multi-Shot App，用户仅凭一段场景描述即可自动生成最多5个逻辑连贯镜头的完整短片，涵盖构图、运镜、节奏控制及音效匹配，标志着生成视频从素材生产进化为叙事创作代理。",
-      "date": "2026-03-30",
+      "title": "谷歌发布Veo 3.1 Lite视频模型，开启"分分钱"生成时代",
+      "desc": "谷歌推出Veo 3.1 Lite视频生成模型，720P视频成本低至每秒0.05美元，通过架构优化实现极高性价比。该模型延续DeepMind时序一致性优势，有效解决轻量化模型常见"画面闪烁"问题，抢占实时视频交互市场。",
+      "date": "2026-03-31",
       "tag": "产品",
       "tagColor": "#e91e63",
-      "link": "https://www.aibase.com/zh/news/26649",
+      "link": "https://www.aibase.com/zh/news/26739",
       "image": ""
     },
     {
       "type": "article",
-      "title": "WPS 365收入暴涨65%，金山办公全面开放AI生态重塑万亿办公市场",
-      "desc": "金山办公在2026企业合作伙伴大会上宣布全面开放AI办公市场，WPS 365面向B端收入达7.20亿元，同比大涨64.93%，连续四季度增速超60%。平台从文档工具进化为提供「数字员工」服务的企业AI大脑。",
-      "date": "2026-03-30",
+      "title": "甲骨文拟裁员数千人，回笼百亿资金全力投入AI基础设施建设",
+      "desc": "甲骨文传出裁员数千人消息，旨在削减人力成本支持AI基础设施巨额投资。分析预测裁员2-3万职位可释放100亿美元现金流。公司已锁定5530亿美元积压收入，包括OpenAI价值4550亿美元订单，折射AI重资产属性对巨头现金流的严峻挑战。",
+      "date": "2026-03-31",
       "tag": "商业",
       "tagColor": "#795548",
-      "link": "https://www.aibase.com/zh/news/26668",
+      "link": "https://www.aibase.com/zh/news/26733",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "DeepSeek连续三天服务异常，最长宕机超10小时后已全面修复",
+      "desc": "DeepSeek服务经历连续三天异常波动，网页端、移动端App及API接口均出现连接中断或响应延迟。最长一次宕机超10小时，对开发者生态产生显著影响。官方确认三次故障已修复，服务回归正常，过去30天可用性指标为98.61%。",
+      "date": "2026-03-31",
+      "tag": "运维",
+      "tagColor": "#607d8b",
+      "link": "https://www.aibase.com/zh/news/26732",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "ChatGPT-5.2首次独立证明数学猜想，开启"氛围证明"时代",
+      "desc": "比利时布鲁塞尔自由大学研究显示，ChatGPT-5.2成功破解2024年提出的悬而未决数学猜想，独立承担证明路径探索与核心逻辑框架搭建。研究团队将这种模式命名为"vibe-proving（氛围证明）"，标志LLM边界跨越至理论数学领域。",
+      "date": "2026-03-31",
+      "tag": "突破",
+      "tagColor": "#9c27b0",
+      "link": "https://www.aibase.com/zh/news/26710",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "小米MiMo-V2-Pro霸榜Text Arena全球第五，雷军：看用户投票",
+      "desc": "小米MiMo-V2-Pro在权威评测榜单Text Arena跻身全球前五，仅次于Anthropic、OpenAI和Google。雷军强调Text Arena"双盲测试"机制杜绝"刷榜"。小米三年投入600亿元AI研发，自研大模型开始与国际巨头同台竞技。",
+      "date": "2026-03-31",
+      "tag": "国产",
+      "tagColor": "#ff9800",
+      "link": "https://www.aibase.com/zh/news/26712",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "阿里Qwen 3.6 Plus预览版空降OpenRouter，100万上下文免费开刷",
+      "desc": "阿里千问Qwen 3.6 Plus Preview登陆OpenRouter，限时免费且拥有100万超长上下文处理能力。相比3.5系列，新模型在逻辑推理和代理行为可靠性上显著提升，复杂问题解决表现已持平甚至超越顶尖旗舰模型。",
+      "date": "2026-03-31",
+      "tag": "开源",
+      "tagColor": "#00bcd4",
+      "link": "https://www.aibase.com/zh/news/26708",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": ""DeepMind之父"哈萨比斯：超级AI或导致人类灭绝，竞赛已无法停止",
+      "desc": "DeepMind创始人哈萨比斯公开表示，超级人工智能确实存在灭绝人类风险，而全球AI研发竞赛已进入"不可逆"失控状态。他承认此前依赖伦理委员会和外部制度约束AI的构想已基本落空，正通过占据核心决策位把控最后防线。",
+      "date": "2026-03-31",
+      "tag": "安全",
+      "tagColor": "#f44336",
+      "link": "https://www.aibase.com/zh/news/26707",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "ChatGPT悄然"上车"，OpenAI适配苹果CarPlay正式发布",
+      "desc": "OpenAI正式发布ChatGPT的苹果CarPlay适配版本，用户可通过语音在驾驶过程中与ChatGPT交互。虽然目前还不能帮助看车，但能动嘴绝不动手的体验已让驾驶场景AI助手成为现实。",
+      "date": "2026-03-31",
+      "tag": "产品",
+      "tagColor": "#e91e63",
+      "link": "https://www.aibase.com/zh/news/26737",
       "image": ""
     }
   ],
   "sections": [
     {
       "type": "banner",
-      "title": "📡 3月30日 · AI前沿日报",
+      "title": "📡 3月31日 · AI前沿日报",
       "bgColor": ""
     },
     {
