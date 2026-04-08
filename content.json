@@ -3,113 +3,113 @@
   "subtitle": "每日AI资讯 · 自动更新",
   "avatar": "",
   "bannerImage": "banner.jpeg",
-  "updateDate": "2026-04-08",
+  "updateDate": "2026-04-09",
   "items": [
     {
       "type": "article",
-      "title": "OpenAI完成1220亿美元融资，估值8520亿美元创历史纪录",
-      "desc": "OpenAI宣布完成总额1220亿美元的私募融资，投后估值达8520亿美元，刷新人类商业史上单笔私募融资最高纪录。本轮融资由软银、亚马逊、英伟达领衔，OpenAI月营收已达20亿美元，企业级业务占比40%。同时OpenAI宣布GPT-6将于4月14日发布，采用神经符号融合架构，上下文窗口扩展至200万Token。",
-      "date": "2026-04-07",
-      "tag": "重磅",
-      "tagColor": "#e91e63",
-      "link": "https://openai.com",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "DeepSeek V4灰度测试开启，首推专家模式功能分层设计",
-      "desc": "DeepSeek正式开启V4版本灰度测试，全新界面新增快速模式、专家模式、视觉模式三大选项。这是DeepSeek首次在产品层面实施功能分层设计，快速模式面向常规对话，专家模式专攻复杂任务深度推理。市场传闻DeepSeek V4全系将采用华为昇腾等国产算力架构，实现从硬件到软件的完整自主可控。",
+      "title": "中国AI大模型周调用量连续五周超越美国，领先优势扩大至4.27倍",
+      "desc": "OpenRouter最新数据显示，上周（3月30日—4月5日）全球AI大模型总调用量达27万亿Token，环比增长18.9%。中国AI大模型周调用量飙升至12.96万亿Token，较前一周暴涨31.48%；美国仅为3.03万亿Token，环比微增0.76%。全球调用量前六名全部被中国模型包揽，阿里通义千问Qwen3.6 Plus以4.6万亿Token位居榜首，小米MiMo-V2-Pro以3.08万亿Token位居第二。",
       "date": "2026-04-08",
       "tag": "重磅",
       "tagColor": "#e91e63",
-      "link": "https://www.deepseek.com",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62969d59cd507852",
       "image": ""
     },
     {
       "type": "article",
-      "title": "中国大模型调用量连续5周超越美国，阿里Qwen3.6登顶全球",
-      "desc": "OpenRouter数据显示，中国大模型周调用量达12.96万亿Token，环比增长31%，连续第5周超越美国。全球调用量TOP6均为中国模型，阿里Qwen3.6 Plus以4.6万亿Token周调用量居首。国家数据局发布数据显示，2026年3月中国日均Token调用量突破140万亿，较2024年初增长超千倍。",
-      "date": "2026-04-07",
+      "title": "智谱发布新一代开源模型GLM-5.1，首超Claude Opus 4.6",
+      "desc": "智谱正式发布新一代开源旗舰模型GLM-5.1，同时提价10%。GLM-5.1是唯一达到8小时级持续工作的开源模型，在最接近真实软件开发的SWE-bench Pro基准测试中，实现国产模型首次超越Claude Opus 4.6。消息带动智谱港股大涨14.63%，报893港元，德适-B上涨14.96%，AI板块全线走强。",
+      "date": "2026-04-08",
+      "tag": "重磅",
+      "tagColor": "#e91e63",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_41169d5e76260552",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "DeepSeek正式上线专家模式，深度思考+极速Token双模分层",
+      "desc": "DeepSeek正式上线专家模式，输入框新增"快速模式"与"专家模式"，这是DeepSeek走红以来首次在产品端引入模式分层设计。快速模式侧重日常对话，支持图片和文件识别；专家模式专注复杂问题，支持更深入思考和智能搜索，Token吞吐速度极快。目前专家模式暂不支持文件上传和多模态输入。",
+      "date": "2026-04-08",
+      "tag": "产品",
+      "tagColor": "#00bcd4",
+      "link": "https://k.sina.com.cn/article_7857201856_1d45362c0019043ara.html",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "苹果自研AI服务器芯片"Baltra"曝光，采用台积电3nm工艺",
+      "desc": "苹果正深化自研AI硬件布局，已开始测试先进玻璃基板，用于代号为"Baltra"的AI服务器芯片。该芯片预计采用台积电3纳米N3E工艺，并采用芯粒架构组合，苹果直接向三星电机评估采购玻璃基板，推进"孤岛式"封闭研发策略，全面掌控AI芯片供应链。",
+      "date": "2026-04-08",
+      "tag": "芯片",
+      "tagColor": "#ff9800",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_35569d5f30c59752",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "A股AI板块暴涨6%，算力需求高增迎爆发拐点",
+      "desc": "4月8日，中证人工智能主题指数强势上涨6.74%，协创数据涨12.01%，深信服涨10.55%，昆仑万维涨10.50%。伴随Agent应用和多模态生态爆发，全球Token用量迎来新一轮加速增长，过去一年周度消耗Token数量从2.1T上升至24.5T，2026年以来周度Token消耗增加280%。",
+      "date": "2026-04-08",
       "tag": "行业",
       "tagColor": "#795548",
-      "link": "https://qwenlm.github.io",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_90069d5f31967952",
       "image": ""
     },
     {
       "type": "article",
-      "title": "SpaceX冲刺史上最大IPO：募资目标750亿美元",
-      "desc": "马斯克旗下SpaceX向SEC递交IPO申请文件，募资目标750亿美元，估值目标上调至2万亿美元，预计6月完成上市。若成功，将刷新全球最大规模IPO纪录。同时NASA阿耳忒弥斯2号载人绕月任务成功发射，四名宇航员开启为期10天的绕月飞行，为月球基地和火星探索奠定基础。",
+      "title": "国产交互式3D数字人框架SentiAvatar全球开源，破解文生动作难题",
+      "desc": "SentiPulse（思维光谱）联合中国人民大学高瓴人工智能学院博士生团队，正式开源国内首个交互式3D数字人框架SentiAvatar，并同步开源配套3D数字人角色模型SUSU及高质量中文多模态对话动作数据集SuSuInterActs，旨在解决3D数字人交互中动作与语义脱节、表情僵硬、节奏错位等行业痛点。",
       "date": "2026-04-08",
-      "tag": "重磅",
-      "tagColor": "#e91e63",
-      "link": "https://www.spacex.com",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "博通谷歌签署TPU长期协议，3.5GW算力喂饱Anthropic",
-      "desc": "博通与谷歌签署长期协议至2031年，为谷歌开发供应未来几代TPU定制芯片。同时博通与Anthropic签署扩展协议，将提供约3.5吉瓦的TPU算力，从2027年起陆续上线。Anthropic年化收入已超300亿美元，Claude需求加速增长。瑞穗分析师估计博通2026年将从Anthropic获得210亿美元AI收入。",
-      "date": "2026-04-07",
-      "tag": "芯片",
-      "tagColor": "#ff9800",
-      "link": "https://www.broadcom.com",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "DeepSeek V4力挺华为昇腾，国产AI芯片份额突破41%",
-      "desc": "DeepSeek V4优先适配华为昇腾等国产AI芯片，打破英伟达优先适配惯例。阿里、字节、腾讯等科技巨头已提前下单华为昇腾950PR芯片，订单规模达数十万颗。最新行业数据显示，中国厂商在本土AI加速卡市场份额已达41%，英伟达份额降至55%，国产替代趋势加速。",
-      "date": "2026-04-07",
-      "tag": "芯片",
-      "tagColor": "#ff9800",
-      "link": "https://www.huawei.com",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "谷歌发布Gemma 4开源模型：31B参数性能超越规模大20倍模型",
-      "desc": "谷歌DeepMind发布Gemma 4系列开源模型，采用Apache 2.0协议完全开源。31B版本在Arena AI榜单位列开源模型第三，性能超越部分规模大20倍的模型，显著提升单位参数效能。发布24小时下载量超4亿次，衍生模型超10万个，创下AI开源史纪录。支持Agent推理、多模态、长上下文及端侧部署。",
-      "date": "2026-04-07",
       "tag": "开源",
       "tagColor": "#4caf50",
-      "link": "https://ai.google.dev/gemma",
+      "link": "https://k.sina.com.cn/article_7857201856_1d45362c0019043u7k.html",
       "image": ""
     },
     {
       "type": "article",
-      "title": "工信部等十部门印发《人工智能科技伦理审查与服务办法》",
-      "desc": "工信部等十部门联合印发《人工智能科技伦理审查与服务办法(试行)》，明确AI科技活动应遵循增进人类福祉、尊重生命权利、尊重知识产权等八大伦理原则。要求开展AI科技活动须将伦理要求贯穿全过程，为AI产业高质量发展提供制度保障和伦理规范。",
-      "date": "2026-04-07",
+      "title": "内蒙古发布"人工智能+"行动方案，2028年培育6个以上行业大模型",
+      "desc": "内蒙古自治区人民政府印发《内蒙古自治区"人工智能+"行动实施方案（2026—2028年）》，提出到2028年开发落地一批行业大模型，重点培育6个以上行业大模型达到国内领先水平，形成典型应用场景与解决方案，建成服务全区的人工智能公共服务平台，为优势产业智能化转型提供核心支撑。",
+      "date": "2026-04-08",
       "tag": "政策",
       "tagColor": "#9c27b0",
-      "link": "https://www.miit.gov.cn",
+      "link": "https://k.sina.com.cn/article_7857201856_1d45362c0019043u7k.html",
       "image": ""
     },
     {
       "type": "article",
-      "title": "雷军马云罕见握手，千寻智能30天完成30亿元融资",
-      "desc": "千寻智能完成新一轮10亿元融资，由顺为资本、云锋基金联合领投。这距离该公司2月份完成近20亿元融资仅过去30天，累计融资规模达30亿元。千寻智能专注于具身智能机器人研发，此次融资标志着国内机器人赛道持续升温，资本加速布局AI智能体与物理AI领域。",
-      "date": "2026-04-07",
+      "title": "地瓜机器人完成1.5亿美元B2轮融资，全面加速全球化布局",
+      "desc": "地瓜机器人宣布完成1.5亿美元B2轮融资，将全面加速全球化业务布局。与此同时，宇树科技移动机器人专利获授权，发明人为王兴兴等。国内具身智能赛道持续升温，资本加速布局AI智能体与物理AI领域，机器人产业迎来新一轮爆发窗口。",
+      "date": "2026-04-08",
       "tag": "融资",
       "tagColor": "#2196f3",
-      "link": "https://www.iyiou.com",
+      "link": "https://flash.jin10.com/detail/20260408115901598800",
       "image": ""
     },
     {
       "type": "article",
-      "title": "OpenAI高管离职潮：GPT-4o之母Joanne Jang宣布离职",
-      "desc": "OpenAI模型行为创始负责人、OpenAI Labs总经理Joanne Jang宣布离职，结束4年半任职生涯。她是GPT-4o的核心功臣，曾为该多模态模型注入灵魂。此前ChatGPT全球负责人Nick Turley也发表评论致谢。OpenAI高管离职潮引发业界对公司治理结构和人才稳定性的关注。",
+      "title": "AI FUTURE北京亦庄AI未来大会启幕，李飞飞等顶尖学者出席",
+      "desc": "AI FUTURE北京亦庄AI未来大会4月8日在北京经济技术开发区启幕，为期两天，以"让每个人看AI的另一面"为主题，集高端论坛、沉浸体验、产业对接与大众科普于一体，吸引产业界、科技界及社会公众千余人参与，助推北京亦庄建设"全域人工智能之城"。",
       "date": "2026-04-08",
-      "tag": "动态",
-      "tagColor": "#00bcd4",
-      "link": "https://openai.com",
+      "tag": "活动",
+      "tagColor": "#607d8b",
+      "link": "https://k.sina.com.cn/article_7857201856_1d45362c0019043vjc.html",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "量子计算实用化加速，中国9原子量子处理器天气预报超越传统神经网络",
+      "desc": "中国科学家以九个原子组成的量子处理器，在天气预报任务中超越传统神经网络，标志着量子计算实用化进程加速。与此同时，国家数据局局长刘烈宏正式将Token命名为"词元"，并提出围绕其调用、分发与结算的价值体系正在加速形成，成为人工智能产业重要变现路径。",
+      "date": "2026-04-08",
+      "tag": "前沿",
+      "tagColor": "#009688",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_62969d59cd507852",
       "image": ""
     }
   ],
   "sections": [
     {
       "type": "banner",
-      "title": "📡 4月7日 · AI前沿日报",
+      "title": "📡 4月8日 · AI前沿日报",
       "bgColor": ""
     },
     {
