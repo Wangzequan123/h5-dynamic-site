@@ -7,109 +7,109 @@
   "items": [
     {
       "type": "article",
-      "title": "腾讯阿里洽谈投资DeepSeek，估值超200亿美元",
-      "desc": "4月22日消息，腾讯控股与阿里巴巴正就投资AI初创公司DeepSeek展开洽谈，这也是DeepSeek自成立以来首次对外融资。知情人士透露，DeepSeek目标估值已从最初100亿美元上调至逾200亿美元。今日DeepSeek官方API正式升级至支持100万tokens上下文，恰逢V4大模型发布前夕。",
+      "title": "腾讯阿里争投DeepSeek，估值超200亿美元，首轮融资细节曝光",
+      "desc": "4月22日据The Information报道，腾讯控股与阿里巴巴正洽谈投资AI初创公司DeepSeek，后者目标估值已从最初100亿美元上调至逾200亿美元（约合人民币1365亿元）。另有接近DeepSeek一线机构投资人透露，本轮融资前估值高达3000亿元（约合440亿美元），起投门槛50亿元。DeepSeek成立来首次对外融资，创始人梁文锋长期坚守的\"不引入外部资金\"立场出现重大转变。月之暗面同步以180亿美元估值完成新一轮融资。",
       "date": "2026-04-22",
       "tag": "重磅",
       "tagColor": "#e91e63",
-      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-04-22/doc-inhvkuqa4297935.shtml",
+      "link": "https://new.qq.com/rain/a/20260423A03SS900",
       "image": ""
     },
     {
       "type": "article",
-      "title": "OpenAI发布Images 2.0图像模型，登顶全球排行榜",
-      "desc": "北京时间4月22日凌晨，OpenAI发布ChatGPT Images 2.0图像生成模型，首次引入"思考能力"，可联网获取实时信息并生成多张不同图像。Arena.ai评测显示，GPT-Image-2已登顶所有Image Arena排行榜第一，以242分优势领先第二名谷歌Nano-banana-2。支持多语言文本渲染，最高2K分辨率。",
+      "title": "OpenAI发布Images 2图像模型，登顶Arena.ai所有排行榜第一",
+      "desc": "4月22日凌晨，OpenAI CEO带队开启20分钟线上直播，正式发布Images 2图像生成模型。Arena.ai评测显示，GPT-Image-2以242分优势领先第二名谷歌Nano-banana-2，登顶所有Image Arena排行榜第一。该模型首次引入\"思考能力\"，可联网获取实时信息并生成多张不同图像，支持多语言文本渲染，最高2K分辨率，被视为OpenAI史上最强图像生成模型。",
       "date": "2026-04-22",
       "tag": "大模型",
       "tagColor": "#3f51b5",
-      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_75569e8713205765",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_30869e955c950352",
       "image": ""
     },
     {
       "type": "article",
-      "title": "谷歌发布第八代TPU芯片，首度拆分训练与推理",
-      "desc": "4月22日谷歌云推出第八代自研TPU芯片：TPU 8t专用于AI训练任务，TPU 8i用于推理任务，两款芯片均将于今年晚些时候上市。TPU 8t性能是上一代Ironwood的2.8倍且价格相同；TPU 8i性能提升80%，每瓦能效均提升超一倍。这是谷歌首次将训练芯片和推理芯片分开，标志着AI硬件战略重大转向。",
+      "title": "OpenAI发布Workspace Agents，GPTs时代宣告终结",
+      "desc": "4月22日OpenAI正式发布工作区智能体Workspace Agents，面向ChatGPT商业版、企业版、教育版和教师版用户开放研究预览，免费试用至5月6日。该产品由Codex驱动，支持7×24小时全天候自动执行任务，已集成Slack、Google Drive、Salesforce、Notion等主流工具，实测可帮助企业团队降低约32%的重复性事务处理耗时，超2000家企业已开启灰度测试。",
+      "date": "2026-04-22",
+      "tag": "产品",
+      "tagColor": "#673ab7",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_38969e95ccd52552",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "谷歌CEO皮查伊：内部75%新代码由AI生成，比例一年翻倍",
+      "desc": "4月23日谷歌及母公司Alphabet CEO桑达尔·皮查伊透露，谷歌内部目前75%的新代码由AI生成后由工程师审核，较去年底的约50%大幅提升，更远超2024年4月的30%。皮查伊表示，谷歌正将AI广泛用于编程，并在Cloud Next 2026大会上发布Gemini Enterprise Agent Platform、Projects等系列AI代理工具，以及第八代TPU芯片（TPU 8T训练芯片、TPU 8i推理芯片），每瓦性能分别提升124%和117%。",
+      "date": "2026-04-22",
+      "tag": "谷歌",
+      "tagColor": "#ff9800",
+      "link": "https://k.sina.com.cn/article_5952915705_162d248f906702tu6i.html?cre=tianyi&mod=pcpager_news&loc=7&r=0&rfunc=45&tj=cxvertical_pc_pager_news&tr=174",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "英伟达新AI芯片因设计缺陷推迟发布，影响Meta/谷歌/微软数百亿美元订单",
+      "desc": "据美国科技媒体The Information 4月23日报道，两名帮助英伟达生产芯片和服务器硬件的人士透露，英伟达即将推出的AI芯片因涉及缺陷将推迟三个月或更长时间，可能影响Meta Platforms、谷歌和微软等客户总共订购的价值数百亿美元的芯片。这是英伟达在AI芯片市场高速扩张背景下罕见遭遇的技术挫折，相关影响正持续发酵。",
       "date": "2026-04-22",
       "tag": "芯片",
-      "tagColor": "#ff9800",
-      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_03869e8dc7138752",
+      "tagColor": "#f44336",
+      "link": "http://www.jwview.com/jingwei/kb/pc/08-03/210965.shtml",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "腾讯混元发布Hy3 preview，姚顺雨加盟后首份答卷",
+      "desc": "4月23日腾讯混元正式发布并开源新一代语言模型Hy3 preview，这是混元团队重组后前OpenAI研究员姚顺雨加盟后训练的首个模型，被官方称为\"混元迄今最智能的模型\"。Hy3 preview为快慢思考融合的混合专家模型，总参数295B，激活参数21B，最大支持256K上下文长度，在代码和智能体能力方面提升显著，综合表现优于Kimi-K2.5。",
+      "date": "2026-04-23",
+      "tag": "大模型",
+      "tagColor": "#3f51b5",
+      "link": "https://finance.eastmoney.com/a/202604233716524950.html",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "小米MiMo-V2.5系列开启公测即将开源，DeepSeek-V4前夕再掀波澜",
+      "desc": "4月23日小米Mimo研究所宣布，MiMo-V2.5-Pro及MiMo-V2.5模型开启公测，并即将开源，同时语音合成和语音识别系列模型也将相继推出。该系列由罗福莉带队，在DeepSeek-V4模型传闻即将发布前夕，小米抢跑开源大模型赛道，引发行业高度关注。",
+      "date": "2026-04-23",
+      "tag": "大模型",
+      "tagColor": "#3f51b5",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_71769e9b02e09152",
       "image": ""
     },
     {
       "type": "article",
       "title": "特斯拉中国车机接入豆包大模型，完成AI备案",
-      "desc": "4月22日消息，特斯拉车机语音大模型服务已于4月20日完成备案，中国区车机系统将接入字节跳动旗下豆包大模型，用于Model Y L等车型。豆包承担语音指令识别与执行，DeepSeek模型负责AI互动服务，二者均通过火山引擎接入。此举旨在提升本土化智能交互体验。",
+      "desc": "4月22日特斯拉车机语音大模型服务已完成备案，中国区车机系统将接入字节跳动旗下豆包大模型，用于Model Y等车型。豆包承担语音指令识别与执行，DeepSeek模型负责AI互动服务，二者均通过火山引擎接入。此举旨在提升本土化智能交互体验，标志着外资车企在中国AI数据合规布局上迈出关键一步。",
       "date": "2026-04-22",
       "tag": "车企",
       "tagColor": "#00bcd4",
-      "link": "https://tech.ifeng.com/c/8sXAIlEArjV",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_30869e955c950352",
       "image": ""
     },
     {
       "type": "article",
-      "title": "荣耀机器人"闪电"50分26秒夺冠，打破人类半马纪录",
-      "desc": "4月19日北京亦庄人形机器人半程马拉松赛事中，荣耀自研机器人"闪电"以50分26秒净用时夺冠，超越人类半马世界纪录57分20秒，相较去年机器人冠军2小时40分大幅提升。荣耀旗下赛队包揽前六名，近四成队伍实现全程自主导航。外媒称这是人形机器人首次在人类选手之前冲过终点。",
+      "title": "DeepSeek官方API升级：100万tokens上下文支持",
+      "desc": "4月22日DeepSeek官方API正式升级至支持100万tokens上下文长度，较原有128K大幅提升，标志着国产大模型在长上下文支持方面达到全球领先水平。这一升级恰逢V4大模型发布前夕，引发行业对DeepSeek下一代旗舰模型的强烈期待。",
       "date": "2026-04-22",
-      "tag": "机器人",
-      "tagColor": "#9c27b0",
-      "link": "http://views.ce.cn/view/ent/202604/t20260422_2921729.shtml",
+      "tag": "大模型",
+      "tagColor": "#3f51b5",
+      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_52269e9e4bd10552",
       "image": ""
     },
     {
       "type": "article",
-      "title": "苹果考虑用外部AI模型支持新版Siri，谷歌确认Gemini版今年发布",
-      "desc": "苹果考虑放弃自研AI模型，转而使用Anthropic或OpenAI技术支持新版Siri。同时谷歌云CEO托马斯·库里安确认，基于Gemini技术构建的苹果新一代Siri将于2026年发布。苹果探索将大型Gemini模型知识蒸馏至更小版本，让精简模型在iPhone等设备端运行，降低对云端依赖。",
-      "date": "2026-04-22",
-      "tag": "苹果",
-      "tagColor": "#4caf50",
-      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_79769e9657825352",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "OpenAI推出生命科学AI模型GPT-Rosalind，助力药物研发",
-      "desc": "4月22日OpenAI发布首款专为生命科学领域打造的AI模型GPT-Rosalind，以DNA结构发现者罗莎琳德·富兰克林命名。该模型旨在协助科学家开展药物研发、生物学研究及转化医学工作，优化研究靶点筛选，缩短新药研发周期。模型已在有机化学、蛋白质和遗传学领域接受测试。",
-      "date": "2026-04-22",
-      "tag": "医疗",
-      "tagColor": "#f44336",
-      "link": "https://www.thepaper.cn/newsDetail_forward_33012943",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "中国人形机器人从"量产元年"迈向"应用元年"",
-      "desc": "外媒《朝日新闻》报道称，中国将2026年定位为人形机器人"应用元年"，加速推动人形机器人融入社会各领域。2025年中国人形机器人整机企业超140家，出货量约1.44万台，占全球84.7%。政策层面从《人形机器人创新发展指导意见》到《人形机器人与具身智能标准体系(2026版)》层层推进。",
-      "date": "2026-04-22",
+      "title": "千问开放AI办事能力：首家接入东航、大麦娱乐联合通义发布\"妙呀\"平台",
+      "desc": "4月23日千问宣布对外开放\"AI办事\"能力，欢迎各类社会服务接入共建AI办事生态。同日，大麦娱乐联合通义发布全球首个潮玩AI设计平台\"妙呀\"，利用通义大模型能力实现智能化潮玩设计，标志着AI大模型在文娱产业垂直场景落地迈入新阶段。",
+      "date": "2026-04-23",
       "tag": "产业",
       "tagColor": "#2196f3",
-      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_06069e8684454852",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "苹果任命特努斯为新CEO，"硬件老兵"接班应对AI变革",
-      "desc": "4月20日苹果宣布蒂姆·库克将于今年9月卸任CEO，现任硬件工程高级副总裁约翰·特努斯将接替成为新CEO。特努斯2001年加入苹果，长期负责硬件业务。苹果正值AI战略攻坚关键期，特努斯透露公司有"令人难以置信的路线图"，强调AI将创造无限潜力。",
-      "date": "2026-04-22",
-      "tag": "人事",
-      "tagColor": "#795548",
-      "link": "https://so.html5.qq.com/page/real/search_news?docid=70000021_83369e8c05b54552",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "科技巨头竞寻核电站为AI数据中心供电",
-      "desc": "微软、亚马逊、谷歌等科技巨头竞相寻找清洁能源为AI数据中心提供支持，运营一座AI数据中心可能需要千兆瓦级别电量，这使得规模庞大的核电站更有竞争力。此前亚马逊宣布向Anthropic追加最高250亿美元投资，Anthropic未来十年将在AWS上投入超1000亿美元。",
-      "date": "2026-04-22",
-      "tag": "能源",
-      "tagColor": "#607d8b",
-      "link": "https://www.guancha.cn/HeDian",
+      "link": "https://www.iimedia.cn/c1088/110898.html",
       "image": ""
     }
   ],
   "sections": [
     {
       "type": "banner",
-      "title": "📡 4月22日 · AI前沿日报",
+      "title": "📡 4月23日 · AI前沿日报",
       "bgColor": ""
     },
     {
