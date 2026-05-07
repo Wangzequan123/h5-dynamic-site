@@ -3,113 +3,113 @@
   "subtitle": "每日AI资讯 · 自动更新",
   "avatar": "",
   "bannerImage": "banner.jpeg",
-  "updateDate": "2026-05-06",
+  "updateDate": "2026-05-07",
   "items": [
     {
       "type": "article",
-      "title": "Anthropic豪掷2000亿美元签下谷歌超级订单，AI算力军备赛创历史纪录",
-      "desc": "5月6日，据The Information报道，Anthropic承诺未来五年内向谷歌支付2000亿美元采购云服务和自研芯片算力，占谷歌近期披露收入积压总额40%以上。此前谷歌已承诺为Anthropic提供高达5吉瓦的服务器容量，预计2027年投入使用。同期OpenAI年服务器支出预估达450亿美元，AI算力成本飙升已成行业常态。",
-      "date": "2026-05-06",
+      "title": "马斯克起诉OpenAI及奥尔特曼案重大进展：马斯克宣布解散xAI并入SpaceX",
+      "desc": "5月7日，马斯克在社交媒体宣布解散xAI并将资产并入SpaceX，震惊业界。xAI旗下22万块GPU、300+兆瓦算力的全球超算Colossus 1将全部租给Anthropic用于Claude推理。同期马斯克起诉OpenAI案庭审进入第二周，布罗克曼私人日记成关键证据。法庭文件显示布罗克曼曾称需要10亿美元个人财富并考虑\"摆脱埃隆\"。马斯克胜诉概率从61%跌至37%，硅谷世纪大案引发全球关注。",
+      "date": "2026-05-07",
       "tag": "重磅",
       "tagColor": "#e91e63",
-      "link": "https://finance.sina.com.cn/stock/usstock/c/2026-05-06/doc-inhwxaev6112099.shtml",
+      "link": "https://www.aitntnews.com/ainews/zh-CN",
       "image": ""
     },
     {
       "type": "article",
-      "title": "英伟达与康宁达成长期战略合作，美国AI基建产能飙升10倍",
-      "desc": "5月6日，英伟达与康宁宣布多年商业与技术合作协议，康宁将美国光连接制造产能提升10倍、光纤产能扩大50%以上，并在北卡罗来纳州和德克萨斯州新建三座先进制造工厂，创造超3000个高薪岗位。黄仁勋称AI正驱动当代规模最大的基础设施建设。康宁盘前股价大涨超15%，英伟达市值重回5万亿美元。",
-      "date": "2026-05-06",
-      "tag": "基建",
-      "tagColor": "#2196f3",
-      "link": "https://new.qq.com/rain/a/20260506A07WAF00",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "Kimi再融20亿美元估值破200亿，半年累计融资超376亿创中国大模型纪录",
-      "desc": "5月6日，月之暗面(Kimi)即将完成新一轮20亿美元融资，投后估值突破200亿美元。本轮融资由美团龙珠领投超2亿美元，中国移动、CPE源峰等参投。Kimi在2026年1至2月已连续完成三轮共19亿美元融资，加上本次半年累计融资超39亿美元（376亿人民币），成为中国大模型创业公司累计融资最多的一家。",
-      "date": "2026-05-06",
+      "title": "Kimi完成约136亿元D轮融资，创中国大模型单笔融资纪录",
+      "desc": "5月7日，月之暗面（Kimi）完成约136亿元人民币D轮融资，为中国大模型目前最大单笔融资，投后估值超1362亿元（约189亿美元），累计融资近300亿元。本轮由多家顶级机构参投。Kimi 2026年连续完成多轮大额融资，半年内累计吸金近376亿元，成为中国估值最高的大模型创业公司。",
+      "date": "2026-05-07",
       "tag": "资本",
       "tagColor": "#9c27b0",
-      "link": "https://www.sohu.com/a/1018965351_122135404",
+      "link": "https://www.aitntnews.com/ainews/zh-CN",
       "image": ""
     },
     {
       "type": "article",
-      "title": "DeepSeek被曝计划融资3亿美元，投后估值或达450亿美元",
-      "desc": "5月6日，据外媒援引知情人士透露，长期坚持实验室底色的DeepSeek首次打开融资大门，已开始与投资人接触，计划融资至少3亿美元以补充资金储备。业内估算其投后估值可达450亿美元。DeepSeek此前因V4系列开源震撼行业，此次融资标志着开源阵营正式拥抱资本化路径。",
-      "date": "2026-05-06",
-      "tag": "资本",
-      "tagColor": "#9c27b0",
-      "link": "https://new.qq.com/rain/a/20260506A06WB600",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "TRAE SOLO移动端正式上线，手机/电脑/网页三端全量互联",
-      "desc": "5月6日，字节跳动旗下AI编程产品TRAE SOLO移动端正式发布，实现iOS、安卓、Mac、Windows四端全量开放。移动端与桌面端共享同一Agent、同一文件系统、同一段对话上下文，一个账号可接入两部手机，一部手机可连接不限个数的PC设备。AI编程正式进入'口袋时代'，联动星巴克推出使用即送咖啡活动。",
-      "date": "2026-05-06",
-      "tag": "工具",
-      "tagColor": "#3f51b5",
-      "link": "https://www.sohu.com/a/1019039052_122014422",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "科创AI指数暴涨7%，中国AI产业链全线爆发澜起科技涨超16%",
-      "desc": "5月6日，上证科创板人工智能指数强势上涨7.05%，成分股澜起科技涨超16%、兆易创新涨超14%、寒武纪涨近12%、华虹半导体涨超9%、中芯国际涨超5%。港股同步走强，恒生科技指数涨0.82%。半导体、存储芯片板块领涨，AI产业链进入全面爆发阶段。消息面上，全球AI大模型周调用量连续两周上涨至23.9万亿Token。",
-      "date": "2026-05-06",
-      "tag": "市场",
-      "tagColor": "#ff5722",
-      "link": "http://finance.sina.com.cn/jjxw/2026-05-06/doc-inhwxnuk8349710.shtml",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "黄仁勋称Agentic AI将重构50万亿美元实体经济，算力需求暴增1000%",
-      "desc": "据《财富》杂志披露，英伟达CEO黄仁勋表示，代理式人工智能(Agentic AI)正推动新一轮技术范式转变，将把软件行业扩展至规模50万亿美元的实体经济领域。相较两年前的生成式AI，Agentic AI所需算力已增长约1000%，因其需同时完成理解、推理与执行任务，这一趋势将持续推高对高性能计算与数据中心基础设施的需求。",
-      "date": "2026-05-06",
-      "tag": "趋势",
-      "tagColor": "#00bcd4",
-      "link": "https://k.sina.com.cn/article_7857201856_1d45362c0019055za0.html",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "DeepMind高级科学家发文论证：AI永远不可能产生意识",
-      "desc": "Google DeepMind高级科学家Alexander Lerchner发表题为《The Abstraction Fallacy》的论文，核心结论：算法符号操作在结构上无法实例化意识——无论模型多大、架构多复杂、是否具身。论文引发学界激烈辩论，有学者从认知科学角度提出反驳。当整个行业讨论AI福利和模型道德地位时，DeepMind内部人直接'堵死'了AI意识之路。",
-      "date": "2026-05-06",
-      "tag": "研究",
-      "tagColor": "#4caf50",
-      "link": "http://k.sina.com.cn/article_5953190046_162d6789e067032y6w.html",
-      "image": ""
-    },
-    {
-      "type": "article",
-      "title": "人工智能之友小组专题会议在联合国总部举行，中国呼吁AI向善发展",
-      "desc": "5月5日，人工智能能力建设国际合作之友小组专题会议在联合国总部举行，中国常驻联合国代表傅聪和赞比亚代表共同主持。中国科技部副部长陈家昌、中国科协党组成员罗晖出席会议并致辞。傅聪表示通过务实项目合作推动数字化转型和能力建设。中国常驻联合国副代表孙磊同日呼吁国际社会践行多边主义，推动AI向善发展。",
-      "date": "2026-05-06",
+      "title": "特朗普家族推出WorldClaw：聚合300+模型的AI API中转站，USD1结算附赠海湖庄园名额",
+      "desc": "5月7日，特朗普家族旗下加密项目WLFI推出AI API中转站WorldClaw，聚合Claude、GPT、Gemini等300多个主流模型，价格比官方低约30%，需用其稳定币USD1结算，并推出锁仓WLFI代币享折扣套餐。购买硬件套餐有机会获得海湖庄园私人活动名额。分析认为其盈利模式将API订阅、稳定币流通、代币锁仓、政治IP溢价四件套绑定，已非单纯中转站。",
+      "date": "2026-05-07",
       "tag": "国际",
       "tagColor": "#607d8b",
-      "link": "https://k.sina.com.cn/article_7857201856_1d45362c0019055gqs.html",
+      "link": "https://www.aitntnews.com/newDetail.html?newId=24802",
       "image": ""
     },
     {
       "type": "article",
-      "title": "IBM报告：76%企业已设首席AI官，AI正重塑企业高管层架构",
-      "desc": "IBM最新研究显示，76%的受访企业已设立首席人工智能官(CAIO)，比例较一年前的26%大幅跃升。59%的CEO表示未来几年首席人力资源官(CHRO)影响力将持续上升，近三分之二企业正调整高管架构以适应AI时代。第一财经同日报道，Blackstone、KKR正与谷歌洽谈在AI领域合作，Meta计划面向消费者推出代理型AI助手。",
-      "date": "2026-05-06",
+      "title": "Anthropic向Claude推「做梦」记忆功能，三项新功能重新定义Agent能力",
+      "desc": "5月7日，Anthropic向Claude Managed Agents推出三项重磅新功能：「做梦」（Dreams）让Agent自主整理记忆碎片并重构知识图谱；成果评估自动化检查任务完成质量；多Agent协作支持将复杂任务拆解分配给多个Agent协同处理。「做梦」功能目前需单独申请测试资格。Claude全系模型能力再度升级，Agent自主性与记忆管理进入新阶段。",
+      "date": "2026-05-07",
+      "tag": "产品",
+      "tagColor": "#2196f3",
+      "link": "https://www.aitntnews.com/ainews/zh-CN",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "OpenAI加速AI手机项目：量产时间提前至2027年，目标出货3000万台",
+      "desc": "5月7日，天风国际分析师郭明錤发布报告称，OpenAI正加速推进首款AI智能体手机项目，量产时间从此前的2028年大幅提前至2027年上半年，核心目的是配合年底IPO计划。若研发顺利，2027至2028年合计出货量有望达到约3000万台，直接切入全球高端智能手机市场，与谷歌Pixel AI手机正面竞争。",
+      "date": "2026-05-07",
+      "tag": "终端",
+      "tagColor": "#ff5722",
+      "link": "http://finance.sina.com.cn/wm/2026-05-06/doc-inhwyqfz8895817.shtml",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "清华无问芯穹完成超7亿元融资，国内最大原生AGI基础设施融资诞生",
+      "desc": "5月7日，清华背景的国内AGI Infra厂商无问芯穹完成超7亿元人民币融资，系国内最大原生AGI基础设施单笔融资。截至2026年4月，其平台日均Token调用量较去年底增长超20倍，增速领跑行业。AGI基础设施赛道持续火热，资本向算力优化与中间层公司加速集中。",
+      "date": "2026-05-07",
+      "tag": "资本",
+      "tagColor": "#9c27b0",
+      "link": "https://www.aitntnews.com/ainews/zh-CN",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "Vivix估值13亿美元推出7verse：AI实时数字人互动复活科比引发热议",
+      "desc": "5月7日，估值13.2亿美元的Vivix正式推出首款产品7verse，提供AI实时数字人互动直播、AI互动短剧游戏和文字冒险游戏。用户可通过一句话或一张照片生成数字人直播间，支持语音克隆和人格设定。评测显示产品仍处于实验阶段，但已将部分知名人物数字人化引发版权争议，葬AI评价称\"复活失败\"但肯定其奶头乐潜力。",
+      "date": "2026-05-07",
+      "tag": "产品",
+      "tagColor": "#2196f3",
+      "link": "https://www.aitntnews.com/newDetail.html?newId=24834",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "苹果研发支出占比30年来首破10%，库克15年任期收官AI大投入",
+      "desc": "5月6日，苹果第一季度研发支出占营收比例达到10.3%，为至少30年来首次突破10%大关。同期营收同比大涨17%创2021年以来最快增速，但研发开支增速（34%）是营收增速的两倍。库克执掌公司15年后即将卸任，终于在人工智能领域投入投资者期待已久的资源力度，标志着苹果AI战略全面提速。",
+      "date": "2026-05-07",
       "tag": "商业",
       "tagColor": "#795548",
-      "link": "https://www.prnasia.com/releases/",
+      "link": "http://finance.sina.com.cn/tech/digi/2026-05-06/doc-inhwyqfz3269736.shtml",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "Genesis AI发布机器人基础模型GENE-26.5：1小时数据搞定20步复杂长序任务",
+      "desc": "5月7日，周衔创立的Genesis AI发布首个机器人基础模型GENE-26.5，这是一个全栈系统，可自主完成烹饪、解魔方、弹琴等20多步长时序复杂任务，且仅需不到1小时的特定任务数据即可训练。机器人领域正加速融合多模态大模型能力，物理世界AI进程提速。",
+      "date": "2026-05-07",
+      "tag": "研究",
+      "tagColor": "#4caf50",
+      "link": "https://www.aitntnews.com/ainews/zh-CN",
+      "image": ""
+    },
+    {
+      "type": "article",
+      "title": "北大SEAlign框架获ICSE 2026杰出论文奖：14B模型解决率从3.7%飙升至17.7%",
+      "desc": "5月7日，北京大学团队提出SEAlign框架，通过识别软件工程Agent轨迹中的关键决策点进行对齐训练，实现重大突破。经优化后的14B参数模型在SWE-bench-lite上解决率从3.7%提升至17.7%，在SWE-bench-verified上从2.8%升至21.8%，该成果荣获软件工程领域顶级会议ICSE 2026杰出论文奖。AI编程能力再度跃升。",
+      "date": "2026-05-07",
+      "tag": "研究",
+      "tagColor": "#4caf50",
+      "link": "https://www.aitntnews.com/ainews/zh-CN",
       "image": ""
     }
   ],
   "sections": [
     {
       "type": "banner",
-      "title": "📡 5月6日 · AI前沿日报",
+      "title": "📡 5月7日 · AI前沿日报",
       "bgColor": ""
     },
     {
